@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>কোডারস ফাউন্ডেশন</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  
+
+<!-- ADDING GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME STYLESHEET -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+<!-- CUSTOM CSS STYLESHEET -->
+  <link rel="stylesheet" href="css/style.css">
+
+<!-- USAGE OF STYLE TAG -->
+  <style>
+    /* FOR EXAMPLE PURPOSE HEADER IS STYLED FROM HERE */
+
+    header nav {
+      background-color: #F7F7F7;
+      margin: 0 auto;
+    }
+
+    header nav .logo {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    header nav .logo img {
+      width: 150px;
+      transition: all ease .5s;
+    }
+
+    header nav .logo img:hover  {
+      width: 220px;
+    }
+
+    header nav .navigations {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    header nav .navigations ul {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    header nav .navigations ul li {
+      list-style: none;
+      
+    }
+
+    header nav .navigations ul li a {
+      text-decoration: none;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #e02f36;
+      font-size: 20px;
+      transition: all ease .5s;
+    }
+
+    header nav .navigations ul li a:hover {
+      color: #222222;
+      letter-spacing: 3px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<!-- HEADER SECTION STARTS -->
+  <header>
+    <nav>
+<!-- EXAMPLE OF INLINE CSS -->
+        <div class="logo" style="padding: 20px 0;">
+
+<!-- IMAGE AND LINK TAGS -->
+          <a href="#"><img src="images/logo.png" alt="Coders Foundation logo" ></a>
+        </div>
+        <div class="navigations">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+
+    </nav>
+  </header>
+<!-- HEADER SECTION ENDS -->
+
+
+  <main>
+
+<!-- SHOWCASE SECTION START -->
+    <section class="showcase">
+      <div class="container">
+      <h1>This is a Heading</h1>
+      <p>These are <strong>Paragraphs</strong>. <em>Lorem ipsum dolor sit</em>, amet consectetur adipisicing elit. Autem odit minima numquam. Ipsam totam dicta eos eveniet? Inventore, minus reiciendis.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci, vitae eum hic velit nam assumenda expedita. Magni, eaque? Debitis reiciendis mollitia incidunt earum, facilis quibusdam? Dolore debitis ut voluptatum.</p>
+      <button type="button">
+        <code>&lt;button&gt; tag</code>
+      </button>
+      <a href="#"><code>&lt;a&gt; tag</code></a>
+      </div>
+    </section>
+<!-- SHOWCASE SECTION END -->
+
+<!-- ABOUT US START -->
+    <section class="about-us">
+      <div class="container">
+        <div class="title">
+          <h2>About us</h2>
+        </div>
+        <div class="team">
+          <div class="team-member">
+            <div class="team-1">
+              <img src="images/p1.jpg" alt="Person One">
+              <h5>Member One</h5>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, modi placeat odit deserunt nostrum dolores atque quia tenetur nulla quis.</span>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-2">
+              <img src="images/p2.jpg" alt="Person Two">
+              <h5>Member Two</h5>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, modi placeat odit deserunt nostrum dolores atque quia tenetur nulla quis.</span>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="team-3">
+              <img src="images/p3.jpg" alt="Person Three">
+              <h5>Member Three</h5>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, modi placeat odit deserunt nostrum dolores atque quia tenetur nulla quis.</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-section">
+          <div class="on-page-video">
+            <span>This is on page video</span>
+            <video width="500" height="281" controls src="videos/2884731896.mp4"></video>
+          </div>
+
+          <div class="iframe-video">
+            <span>this is iframe video</span>
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/fy1ow3aDr5I?rel=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ABOUT US END -->
+
+<!-- AUDIO SECTION START-->
+<div class="audio-section">
+  <div class="audio-clip">
+    <span>
+      Click the Play Button
+    </span>
+    <span class="wink">😉</span>
+    <audio controls src="audios/moshiurbro.mp3"></audio>
+  </div>
+</div>
+<!-- AUDIO SECTION END -->
+
+<!-- POSITIONING SECTION START -->
+  <div class="positioning">
+
+      <div class="element top-middle">top middle</div>
+      <div class="element top-right">top right</div>
+      <div class="element top-left">top left</div>
+      <div class="element center">center</div>
+      <div class="element center-right">center right</div>
+      <div class="element center-left">center left</div>
+      <div class="element bottom-center">bottom center</div>
+      <div class="element bottom-right">bottom right</div>
+      <div class="element bottom-left">bottom left</div>
+
+  </div>
+<!-- POSITIONING SECTION END -->
+
+<!-- TABLE SECTION STARTS HERE-->
+  <div class="table-section">
+    <div class="container">
+      <div class="title">
+        <h2>
+          This is a table
+        </h2>
+      </div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>School name</th>
+            <th>Marks</th>
+          </tr>
+          <tr>
+            <td>Arif</td>
+            <td>101</td>
+            <td>Khulna Zilla School</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Hasan</td>
+            <td>102</td>
+            <td>Jessore Zilla School</td>
+            <td>93</td>
+          </tr>
+          <tr>
+            <td>Jim</td>
+            <td>105</td>
+            <td>Govt Model School</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>Rifat</td>
+            <td>112</td>
+            <td>Ideal School</td>
+            <td>96</td>
+          </tr>
+  
+        </table>
+    </div>
+  </div>
+<!-- TABLE SECTION STARTS ENDs-->
+
+<!-- FORM SECTION STARTS -->
+  <div class="form-section">
+    <div class="container">
+      <div class="title">
+        <h2>Login or Say us Hello!</h2>
+      </div>
+      <div class="form-flexbox">
+        <div class="contact-form">
+          <form action="POST">
+            <input required placeholder="Full Name"  type="text">
+            <input required placeholder="Enter Your Email"  type="email">
+            <textarea required placeholder="Write Your Message" ></textarea>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+          </form>
+          
+        </div>
+  
+        <div class="login-form">
+          <form action="POST">
+            <input required type="email" placeholder="Enter Your Email">
+            <input required type="password" placeholder="Password">
+            <button type="submit">Login</button>
+            <input type="checkbox" id="remeberme"><label for="remeberme">Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!-- FORM SECTION ENDS -->
+
+<!-- MAP SECTION STARTS -->
+  <section class="map-section">
+    <div class="title">
+      <h2>Coders Foundation <i class="fas fa-map-marked-alt"></i></h2>
+    </div>
+    <div class="iframe-div">
+      <div class="overlay" onClick="style.pointerEvents='none'"></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.4266675792833!2d90.39890311479871!3d23.874484489942173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c52cf35a63ad%3A0x43b2f5169dde26f5!2sCoders%20Foundation%20Institute!5e0!3m2!1sen!2sbd!4v1642503656949!5m2!1sen!2sbd"></iframe>
+    </div>
+  </section>
+<!-- MAP SECTION ENDS -->
+
+  </main>
+
+  <footer>
+    <div class="left">
+      <span>Copyright &copy; 2022 All rights reserved.</span>
+    </div>
+    <div class="center">
+      <span>Designed by <a href="https://www.facebook.com/tryGalib/" target="_blank">Galib Mahmud</a>
+      </span>
+    </div>
+    <div class="right">
+      <a href="https://www.facebook.com/tryGalib/" target="_blank"><img src="images/me.jpg" alt="Galib"></a>
+    </div>
+  </footer>
+
+  <!-- Thank YOU :) -->
+
+  
+</body>
+</html>
